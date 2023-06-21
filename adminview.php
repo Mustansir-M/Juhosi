@@ -1,9 +1,9 @@
 <?php
 
-$servername = "127.0.0.1:3308";
-$username = "mus";
-$password = "mus";
-$database = "task";
+$servername = "your_host";
+$username = "your_username";
+$password = "your_password";
+$database = "your_database";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
